@@ -1,7 +1,12 @@
-'use strict';
+import {Card} from './Card.js';
+import {CardList} from './CardList.js';
+import {PopupWithForm} from './PopupWithForm.js';
+import {PopupWithImage} from './PopupWithImage.js';
+import {UserInfo} from './UserInfo.js';
+import {FormValidator} from './FormValidator.js';
+import {Api} from './Api.js';
 
-(() => {
-
+export default (() => {
 	const placesList = document.querySelector('.places-list');
 
 	const buttonOpenPopup = document.querySelector('.user-info__button');
@@ -32,14 +37,16 @@
 		cardList.addCard(createCard(obj));
 		formAddCardValidator.setSubmitButtonState(submit, false);
 	}
-
+	
+	const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11' : 'https://praktikum.tk/cohort11';
 	const infoForFetch = {
-		baseUrl: 'https://praktikum.tk/cohort11',
+		baseUrl: serverUrl,
 		headers: {
 			authorization: '4b8d1146-4df6-423d-8a49-5b54f6b382d9',
 			'Content-Type': 'application/json'
 		}
 	}
+	
 	
 	const api = new Api(infoForFetch);
 	const changeInfo = (obj) => api.patchUserProfile(obj);

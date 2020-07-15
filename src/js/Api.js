@@ -1,14 +1,8 @@
-class Api {
+export class Api {
     constructor(infoForFetch) {
         this.infoForFetch = infoForFetch;
     }
 
-    /**
-     * Старайтесь придумывать более описательные имена для функций/методов/переменных. Например,
-     * имена методов `sendData` и `getData` довольно абстрактны. Например, было бы удобнее иметь методы
-     * getCards, patchUserProfile, getUserProfile - теперь легче понять, для чего они предназначены,
-     * взглянув на имя.
-     */
     patchUserProfile({name, job}) {
 
         return fetch(`${this.infoForFetch.baseUrl}/users/me`, {
