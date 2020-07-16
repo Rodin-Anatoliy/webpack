@@ -1,4 +1,4 @@
-class Card {
+export class Card {
 
 	constructor(cardInfo, openImage) {
 		this.cardInfo = cardInfo;

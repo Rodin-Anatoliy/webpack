@@ -1,4 +1,6 @@
-class PopupWithImage extends Popup {
+import {Popup} from './Popup.js';
+
+export class PopupWithImage extends Popup {
 	constructor(popup) {
 		super(popup);
 		this.popup.querySelector('.popup__close').addEventListener('click', () => super.close());
