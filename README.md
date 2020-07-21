@@ -1,6 +1,6 @@
 # webpack
 Изучение сборки проекта через webpack
-# Проект - "webpack"
+# 
 
 [Ссылка на рабочую версию проекта](https://rodin-anatoliy.github.io/webpack/)
 Версия проекта v0.6
