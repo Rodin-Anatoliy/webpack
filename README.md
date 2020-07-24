@@ -19,14 +19,30 @@
 - Оптимизация работы со шрифтами.
 
 ## Пакеты из NPM, использованные в проекте:
-- Babel CLI.
-- Babel Core.
-- Babel Preset Evnvironment.
-- Сore JS.
-- PostCSS.
-- Define plugin.
-- Style loader.
-- Optimize CSS assets.
+**Для работы с кодом:**
+- babel-loader,
+- babel-cli,
+- babel-core,
+- babel-preset-env,
+- core-js,
+- babel-polyfill,
+- mini-css-extract-plugin,
+- optimize-css-assets-webpack-plugin,
+- css-loader,
+- html-webpack-plugin,
+- postcss-loader,
+- autoprefixer,
+- cssnano.
+**Для работы вебпака:**
+- gh-pages,
+- webpack-md5-hash,
+- webpack,
+- webpack-cli,
+- webpack-dev-server,
+path.
+**Для работы с изображениями:**
+- file-loader,
+- image-webpack-loader.
 
 ## Для установки:
 1. [Склонировать](https://git-scm.com/book/ru/v2/Appendix-C%3A-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-Git-%D0%9A%D0%BB%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B5%D0%B2) репозиторий на локальный компьютер
