@@ -1,4 +1,4 @@
-# webpack
+# Проект "MESTO Russia"
 Изучение сборки проекта через webpack
 # 
 
