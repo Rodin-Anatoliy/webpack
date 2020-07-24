@@ -19,6 +19,7 @@
 - Оптимизация работы со шрифтами.
 
 ## Пакеты из NPM, использованные в проекте:
+
 **Для работы с кодом:**
 - babel-loader,
 - babel-cli,
@@ -33,6 +34,7 @@
 - postcss-loader,
 - autoprefixer,
 - cssnano.
+
 **Для работы вебпака:**
 - gh-pages,
 - webpack-md5-hash,
@@ -40,6 +42,7 @@
 - webpack-cli,
 - webpack-dev-server,
 path.
+
 **Для работы с изображениями:**
 - file-loader,
 - image-webpack-loader.
