@@ -2,7 +2,7 @@
 Реализация функционала через JavaScript и сборка проекта через webpack
 # 
 
-[Ссылка на рабочую версию проекта](https://rodin-anatoliy.github.io/webpack/)
+[Ссылка на рабочую версию проекта](https://rodin-anatoliy.github.io/mesto/)
 
 Версия проекта v0.6
 
