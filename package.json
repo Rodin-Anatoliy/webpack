@@ -1,7 +1,7 @@
 {
-  "name": "web",
+  "name": "mesto",
   "version": "1.0.0",
-  "description": "Изучение сборки проекта через webpack",
+  "description": "Реализация функционала через JavaScript и сборка проекта через webpack",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist cross-env NODE_ENV=production  && webpack --mode production",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rodin-Anatoliy/webpack.git"
+    "url": "git+https://github.com/Rodin-Anatoliy/mesto.git"
   },
   "author": "Anatoliy Rodin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rodin-Anatoliy/webpack/issues"
+    "url": "https://github.com/Rodin-Anatoliy/mesto/issues"
   },
-  "homepage": "https://github.com/Rodin-Anatoliy/webpack#readme",
+  "homepage": "https://github.com/Rodin-Anatoliy/mesto#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
