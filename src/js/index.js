@@ -54,7 +54,7 @@ import {Api} from './Api.js';
 
 	api.getData('cards')
 		.then(cards => {
-			cardList.render(cards.slice(0, 30));
+			cardList.render(cards);
 		})
 		.catch(error => console.log(error));
 
